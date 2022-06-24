@@ -1,0 +1,283 @@
+#ubicacion {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 160px;
+
+
+}
+
+#ubicacion img{
+    margin-top: 17px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 15px;
+}
+
+#ubicacion a {
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.ruta2 {
+    color:#9b9b9c;
+    
+}
+
+
+
+.secProducto {
+    display: flex;
+    margin-left: 160px;
+    
+}
+
+#imgBig {
+    height: 500px; 
+    width: 650px;
+    object-fit: cover;
+    border-radius: 10px;     
+}
+
+.descripcion {
+    margin-left: 80px;
+    position: relative;
+}
+
+.nombre h2 {
+    margin-top: 0px;
+}
+
+#precio {
+    color: #1963BD;
+}
+
+.nombre div {
+    background-color: #dad9d9;
+    position: absolute;
+    top: 0px;
+    right: -120px;
+    border-radius: 100%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: red 1px solid; */
+    height: 40px;
+    width: 40px;  
+   
+}
+
+#iconStar {
+    left: 6.5px;
+    top: 5px;
+    height: 40px;
+    position: absolute;
+    
+}
+
+.flecha {
+    height: 10px;
+    /* position: absolute; */
+    
+}
+
+#tamaño {
+    margin-top: 50px;
+}
+
+#personalizar {
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+}
+
+#personalizar div {
+    border: 1px #dad9d9 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#cantidad {
+    margin-top: 70px;
+}
+
+#divCantidad input{
+    height: 30px;
+    width: 70px;
+    border:#dad9d9 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#botones {
+    margin-top: 50px;
+    display: flex;
+}
+
+#boton1 {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    margin-right: 20px;
+    width: 150px;
+    height: 25px;
+    background: #184A81;
+    color:white;
+    border-radius: 12px;
+    cursor: pointer;
+   
+}
+
+#boton2 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    width: 180px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #C0C5CA;
+    border-radius: 12px;
+    color:#184A81;
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+}
+
+#boton2 img {
+    position: absolute;
+    left:15px;
+}
+
+#previews {
+    display: flex;
+    margin-left: 160px;
+
+}
+
+
+.select {
+    opacity: 1;
+    height: 75.5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: #184A81 3px solid;
+}
+
+#imgpreview {
+    height: 75.5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    opacity: 0.5;
+    
+}
+
+#shipInformation {
+    display: flex;
+    margin-left: 160px;
+    margin-top: 60px;
+    border-bottom: #C0C5CA 1px solid;
+}
+
+#shipInformation div{
+    margin-right: 40px;
+}
+
+#divSelect{
+    border-bottom: #184A81 3px solid;
+  
+}
+
+#divSelect p {
+    color: #184A81;
+    font-weight: 700;
+}
+
+#secVendedor {
+    display: flex;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.parrafoT {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#nombreSeller img {
+    height: 50px;
+    border-radius: 100%;
+    width: 50px;
+    object-fit: cover;
+}
+
+
+#nombreSeller {
+    display: flex;
+    align-items: center;
+}
+
+#seller{
+    margin-right: 330px;
+}
+
+.pNombreVendedor {
+    font-weight: 700;
+    color: #184A81;
+    margin-bottom: -10px;
+    margin-left: 10px;
+}
+
+#calificacion {
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+
+#pFree {
+    font-weight: 700;
+    color: #184A81;
+    margin-bottom: -10px;
+}
+
+#pLugar {
+    font-size: 13px;
+}
+
+#pShipping {
+    margin-bottom: 23px;
+}
+
+#divShipping {
+    margin-right: 330px;
+}
+
+#recomendaciones {
+    display: flex;
+    align-items: center;
+}
+
+#recomendaciones div {
+    /* border:1px red solid; */
+    /* height: 200px;
+    width: 300px; */
+    position: relative;
+    margin-right: 80px;
+}
+
+#recomendaciones div img {
+    height: 170px;
+    width: 192px;
+    border-radius: 10px;
+    object-fit: cover;
+}

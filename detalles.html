@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/detalles.css">
+    
+    <title>Detalles</title>
+</head>
+<body>
+    <header>
+        <div id="cabecera">
+            <img src="./imagenes/iconos/ebay.png" alt="" id="logo">
+            <div id="divForm">
+                <form action="">
+                    <input type="Búsqueda" placeholder="Busque y de seguro lo encontrará">
+                </form>
+                <img src="./imagenes/iconos/search.png" alt="" id="search">
+            </div>  
+            <div id="divIcons">
+                <img src="./imagenes/iconos/star.png" alt="" id="icons">
+                <img src="./imagenes/iconos/user.png" alt="" id="icons">
+                <a href=""><img src= "./imagenes/iconos/116356.png"  alt="" id="icons"></a>
+            </div>            
+        </div> 
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li id="home"><a href="index.html">Home</a></li>
+            <li id="automovil">Automóvil</li>
+            <li id="herramientas">Herramientas</li>
+            <li id="electrodomesticos">Electrodomésticos</li>
+            <li id="construccion">Construcción y ferretería</li>
+            <li id="pintura">Pinturas</li>
+        </ul>
+    </nav>
+    <div id="ubicacion">
+        <a href="#" class="ruta">Electrodomésticos</a>
+        <img src="./imagenes/iconos/flecha-derecha.png" alt="" class="flecha">
+        <a href="#" class="ruta">Marca</a>
+        <img src="./imagenes/iconos/flecha-derecha.png" alt="" class="flecha">
+        <p class="ruta2">Modelo</p>
+    </div>
+
+    <section class="secProducto">
+        <img id="imgBig" src="https://http2.mlstatic.com/D_NQ_NP_2X_793124-MCO50092811072_052022-F.webp" alt="">
+        <div class="descripcion">
+            <div class="nombre">
+                <h2 id="nameProduct">Freidora De Aire Airfryer Digital Sin Aceite Olla 4litros</h2>
+                <p>Condición: Artículo nuevo</p>
+                <h2 id="precio">$120.700</h2>
+                <div><img id="iconStar" src="./imagenes/iconos/star.png" alt=""></div>
+            </div>
+            <p id="tamaño">Tamaño</p>
+            <div id="personalizar">
+                <div >
+                    <p id="tamaño1">40 cm</p>
+                </div>
+                <div >
+                    <p id="tamaño2">50 cm</p>
+                </div>
+                
+            </div>
+            <p id="cantidad">Cantidad</p>
+            <div id="divCantidad">
+                <input id="inputCantidad" type="text" placeholder="1" value="1">
+            </div>
+            <div id="botones">
+                <div id="boton1">Comprar</div>
+                <div id="boton2">Agregar al carrito
+                    <img src="" alt="">
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <div id="previews">
+        <img src="" alt=""  class="select">
+        <img src="" alt="" id="imgpreview">
+        <img src="" alt="" id="imgpreview">
+        <img src="" alt="" id="imgpreview">
+        <img src="" alt="" id="imgpreview">
+    </div>
+
+    <div id="shipInformation">
+        <div>
+            <p>Detalles del producto</p>
+        </div>
+        <div>
+            <p>Reseñas</p>
+        </div>
+        <div id="divSelect">
+            <p>Información de envío</p>
+        </div>
+    </div>
+
+    <section id="secVendedor">
+        <div id="seller">
+            <p class="parrafoT">Información del vendedor:</p>
+            <div id="nombreSeller">
+                <img src="https://abasto.com/wp-content/uploads/2018/02/vendedor-eficiente.jpg" alt="">
+                <div>
+                    <p class="pNombreVendedor"></p>
+                    <p id="calificacion"></p>
+                </div>
+                
+                
+            </div>
+        </div>
+
+        <div id="divShipping">
+            <p class="parrafoT" id="pShipping">Información de envío: </p>
+            <p id="pFree">Envío Estándar GRATIS</p>
+            <p id="pLugar">Se envía desde</p>
+        </div>
+
+        <div id="divPayment">
+            <p class="parrafoT" id="pShipping">Información de envío: </p>
+            <p id="pFree">Paypa, Credit Card</p>
+            <p id="pLugar">Visa, Mastercard, Amex, Discover</p>
+        </div>
+    </section>
+
+    <section id="ending">
+        <div class="title">
+            <div class="divBarra"><h1 class="t1">La gente también vio</h1></div>
+            <div><a href=""><h1 class="t2">Ver todo</h1></a></div>
+            <div><img src="" alt=""></div>    
+        </div>
+        <p id="rc">Según lo visto recientemente</p>
+
+        <div id="recomendaciones">
+            <div>
+                <img src="./imagenes/automovil/automovil_1.jpg" alt="" id="imgRecomendadas">              
+            </div>
+
+            <div>
+                <img src="./imagenes/automovil/automovil_2.jpg" alt="" id="imgRecomendadas">
+            </div>
+
+            <div>
+                <img src="./imagenes/automovil/automovil_3.jpg" alt="" id="imgRecomendadas">
+            </div>
+
+            <div>
+                <img src="./imagenes/automovil/automovil_4.jpg" alt="" id="imgRecomendadas">
+            </div>
+
+            <div>
+                <img src="./imagenes/automovil/automovil_5.jpg" alt="" id="imgRecomendadas">
+            </div>
+
+        </div>
+    </section>
+
+  
+   
+    <script src="./modules/printCategories.js" type="module"></script>
+    <script src="./scripts/main2.js" type="module"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+</body>
+</html>

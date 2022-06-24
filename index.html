@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="cabecera">
+            <img src="./imagenes/iconos/ebay.png" alt="" id="logo">
+            <div id="divForm">
+                <form action="">
+                    <input type="Búsqueda" placeholder="Busque y de seguro lo encontrará">
+                </form>
+                <img src="./imagenes/iconos/search.png" alt="" id="search">
+            </div>  
+            <div id="divIcons">
+                <img src="./imagenes/iconos/star.png" alt="" id="icons">
+                <img src="./imagenes/iconos/user.png" alt="" id="icons">
+                <a href=""><img src= "./imagenes/iconos/116356.png"  alt="" id="icons"></a>
+            </div>            
+        </div>        
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li id="home"><a href="index.html">Home</a></li>
+            <li id="automovil">Automóvil</li>
+            <li id="herramientas">Herramientas</li>
+            <li id="electrodomesticos">Electrodomésticos</li>
+            <li id="construccion">Construcción y ferretería</li>
+            <li id="pintura">Pinturas</li>
+        </ul>
+    </nav>
+    
+<div class="container">
+    <section id="featured">
+        <h1>Nuestros Productos por temporada</h1>
+        <p>Productos promocionales</p>
+        <div id="containerP">
+            <div id="imgProducto1">
+                <img src="./imagenes/temporada/pulidora.webp" alt="" id="producto1">
+            </div>
+            <div id="imgProducto2">
+                <img src="./imagenes/temporada/rebordeadora-1.webp" alt="" id="producto2">
+            </div>
+
+            <div id="imgProducto2">
+                <img src="./imagenes/temporada/corta cesped.webp" alt="" id="producto2">
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="categorias">
+        <div class="title">
+            <div class="divBarra"><h1 class="t1">Comprar por categorías</h1></div>
+            <div><a href=""><h1 class="t2">Obsérvalas</h1></a></div>
+            <div><img src="./imagenes/iconos/flecha.png" alt=""></div>    
+        </div>
+
+        <div id="imgCircles">
+            <div>
+                <img src="./imagenes/automovil/automovil_1.jpg" alt="" id="circles">
+                <p>Automóvil</p>
+            </div>
+            <div>
+                <img src="./imagenes/construccion y ferreteria/ferreteria_1.jpg" alt="" id="circles">
+                <p>Consturcción y ferretería</p>
+            </div>
+            <div>
+                <img src="./imagenes/electrodomesticos/electrodomestico_1.jpg" alt="" id="circles">
+                <p>Electrodomésticos</p>
+            </div>
+            <div>
+                <img src="./imagenes/herramientas/herramienta_1.jpg" alt="" id="circles">
+                <p>Herramientas</p>
+            </div>
+            <div>
+                <img src="./imagenes/pinturas/pinturas_1.jpg" alt="" id="circles">
+                <p>Pinturas</p>
+            </div>
+            <div>
+                <img src="./imagenes/hogar/hogar_1.jpg" alt="" id="circles">
+                <p>Decoración</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="final">
+        <div class="title">
+            <div class="divBarra"><h1 class="t1">Rebajas por temporada</h1></div>
+            <div><a href=""><h1 class="t2">Nuestras ofertas</h1></a></div>
+            <div><img src="./imagenes/iconos/flecha.png" alt=""></div>    
+        </div>
+        <p id="rc">Recomendado para ti</p>
+
+        <div id="recomendaciones">
+            <div>
+                <img src="./imagenes/rebajas/rebaja_1.jpg" alt="" id="imgRecomend">
+                <p class="nombreP">Tronzadora</p>
+                <p class="precio">$150.000,00</p>
+            </div>
+            <div>
+                <img src="./imagenes/rebajas/rebaja_2.jpg" alt="" id="imgRecomend">
+                <p class="nombreP">Dremel</p>
+                <p class="precio">$85.000,00</p>
+            </div>
+            <div>
+                <img src="./imagenes/rebajas/rebaja_3.jpg" alt="" id="imgRecomend">
+                <p class="nombreP">Llantas</p>
+                <p class="precio">$85.000,00</p>
+            </div>
+            <div>
+                <img src="./imagenes/rebajas/rebaja_4.jpg" alt="" id="imgRecomend">
+                <p class="nombreP">Grifería</p>
+                <p class="precio">$120.000,00</p>
+            </div>
+            <div>
+                <img src="./imagenes/rebajas/rebaja_5.jpg" alt="" id="imgRecomend">
+                <p class="nombreP">Maleta organiadora</p>
+                <p class="precio">$99.000,00</p>
+            </div>
+        </div>
+    </section>
+
+    
+        <template id="template">  
+            <div class="templateDivImg">
+                <a href="./detalles.html"><img id="templateImg" src="" alt=""></a>
+                <div class="nomPrecio">
+                    <h5 class="nombreProducto"></h5>
+                    <p class="precioProducto"></p>
+                </div>
+            </div>
+    </template>
+</div>
+
+    <script src="./scripts/main.js" type="module"></script>
+    <script src="./scripts/main2.js" type="module"></script>
+    <script src="./scripts/main3.js" type="module"></script>
+
+
+</body>
+</html>

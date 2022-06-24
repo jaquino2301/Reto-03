@@ -1,0 +1,178 @@
+{
+	"Automovil": [{
+			"id": 1,
+			"nombre": "Pato Para Carro",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_631855-MCO49243039099_032022-F.webp",
+			"precio": 11700
+		},
+
+		{
+			"id": 2,
+			"nombre": "Malla Para Protección De Niños Y Mascotas En El Auto",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_745788-MCO45615389749_042021-F.webp",
+			"precio": 30500
+
+		},
+		{
+			"id": 3,
+			"nombre": "Tapa Cubre Valvula + Llavero De Marcas Logos Carro Camioneta",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_854008-MCO44358802283_122020-F.webp",
+			"precio": 29500
+
+		},
+		{
+			"id": 4,
+			"nombre": "Espejo Retrovisor Con Dvr Y Cámara De Reversa Pantalla 4.3",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_836431-MCO31808563044_082019-F.webp",
+			"precio": 110500
+		},
+
+		{
+			"id": 5,
+			"nombre": "Barras De Techo Transversales Portaequipaje Carro/camioneta",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_870131-MCO42494027043_072020-F.webp",
+			"precio": 129500
+		}
+	],
+	"Herramientas": [{
+			"id": 6,
+			"nombre": "Juego De Herramienta 85pz Copas Reparación Carro Moto",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_984848-MCO45519587296_042021-F.webp",
+			"precio": 110700
+		},
+
+		{
+			"id": 7,
+			"nombre": "4 Unidades Escuadra Magnética Para Soldar 4 Pg 22 Kg",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_691136-MCO48828196094_012022-F.webp",
+			"precio": 70500
+
+		},
+		{
+			"id": 8,
+			"nombre": "Tijera De Poda Cuchilla De Paso 8´´ Corte 3/4",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_820961-MCO43581602728_092020-F.webp",
+			"precio": 20500
+
+		},
+		{
+			"id": 9,
+			"nombre": "Caja Para Herramienta 19pg",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_915965-MCO33020779235_112019-F.webp",
+			"precio": 60500
+		},
+
+		{
+			"id": 10,
+			"nombre": "Juego 13 Llaves Bristol Extra Larga Milimetrica",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_880568-MCO45813279581_052021-F.webp",
+			"precio": 29500
+		}
+	],
+	"Electrodomesticos": [{
+			"id": 11,
+			"nombre": "Freidora De Aire Airfryer Digital Sin Aceite Olla 4litros",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_793124-MCO50092811072_052022-F.webp",
+			"precio": 120700
+		},
+
+		{
+			"id": 12,
+			"nombre": "Licuadora Oster BRLY07 1.5 L negra con vaso de vidrio 120V",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_718825-MLA46237900902_062021-F.webp",
+			"precio": 70500
+
+		},
+		{
+			"id": 13,
+			"nombre": "Cafetera Oster BVSTDCDR5 semi automática negra de filtro 127V",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_929179-MLA45993621246_052021-F.webp",
+			"precio": 220500
+
+		},
+		{
+			"id": 14,
+			"nombre": "Batidora de inmersión Oster 2499 blanca 60 Hz 120 V",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_726544-MLA43704574118_102020-F.webp",
+			"precio": 80500
+		},
+
+		{
+			"id": 15,
+			"nombre": "Balanza Gramera Bascula Pesa Digital 10000 Gr Tara + Pilas",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_761530-MCO44815991757_022021-F.webp",
+			"precio": 12500
+		}
+	],
+	"Construccion": [{
+			"id": 16,
+			"nombre": "Plomada De Construcción #1 De Zinc 200g",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_989269-MCO49022138409_022022-F.webp",
+			"precio": 12700
+		},
+
+		{
+			"id": 17,
+			"nombre": "Flexometro 8m Construccion Carpinteria Hogar Otros Metro 8m",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_842720-MCO49512248896_032022-F.webp",
+			"precio": 20500
+
+		},
+		{
+			"id": 18,
+			"nombre": "Nivel De Bloques Para Construcción Adobe Ladrillos 2 Piezas",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_738280-MCO48840062833_012022-O.webp",
+			"precio": 52500
+
+		},
+		{
+			"id": 19,
+			"nombre": "Casco De Seguridad Negro Ingeniero Obra Construccion",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_608587-MCO43712605763_102020-O.webp",
+			"precio": 20500
+		},
+
+		{
+			"id": 20,
+			"nombre": "Demoledor Martillo Picador Minería Construcción",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_809620-MCO49192263469_022022-F.webp",
+			"precio": 612500
+		}
+	],
+	"Pintura": [{
+			"id": 21,
+			"nombre": "Pintura En Aerosol Colores 400ml Waltek - mLg",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_878075-MCO49436610836_032022-F.webp",
+			"precio": 7700
+		},
+
+		{
+			"id": 22,
+			"nombre": "Juego De Brochas Pintar",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_850761-MCO49094749446_022022-F.webp",
+			"precio": 7500
+
+		},
+		{
+			"id": 23,
+			"nombre": "Rodillo Decorativo Flores",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_818365-MCO43773260980_102020-F.webp",
+			"precio": 40500
+
+		},
+		{
+			"id": 24,
+			"nombre": "Tipo Interior - Caneca - gal",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_641938-MCO47006020052_082021-F.webp",
+			"precio": 120500
+		},
+
+		{
+			"id": 25,
+			"nombre": "Rodillo Pintura Recargable Pintar Casa - Esquinas Fácil",
+			"url": "https://http2.mlstatic.com/D_NQ_NP_2X_954286-MCO49313275159_032022-F.webp",
+			"precio": 32500
+		}
+	]
+
+}
